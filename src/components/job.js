@@ -12,8 +12,6 @@ const Job = (props) => {
         <span>
           <FormattedNumber
             value={props.offer.salary}
-            style="currency"
-            currency="COP"
             minimumFractionDigits={0}
           />{' '}
           <FormattedPlural value={props.offer.salary} one={<FormattedMessage id="million"/>} other={<FormattedMessage id="millions"/>}/>

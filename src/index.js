@@ -4,6 +4,7 @@ import { IntlProvider } from 'react-intl';
 import localeEsMessages from "./locales/es";
 import localeEnMessages from "./locales/en";
 import JobsList from "./components/jobslist";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const userLanguage = navigator.language || navigator.userLanguage;
 const isSpanish = userLanguage.startsWith('es');

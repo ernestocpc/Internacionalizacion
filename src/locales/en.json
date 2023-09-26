@@ -5,6 +5,7 @@
     "City": "City",
     "PublicationDate": "Publication Date",
     "Views": "Number of views",
-    "Singular_salary": "Million",
-    "Plural_salary": "Millions"
+    "million": "million",
+    "millions": "millions",
+    "table-color": "table-dark"
 }

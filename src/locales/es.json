@@ -6,5 +6,6 @@
     "PublicationDate": "Fecha de publicación",
     "Views": "No. de visitas",
     "million": "millon",
-    "millions": "millones"
+    "millions": "millones",
+    "table-color": "table-primary"
 }

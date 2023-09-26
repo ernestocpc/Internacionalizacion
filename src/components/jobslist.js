@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Job from "./job";
 import { FormattedMessage } from "react-intl";
+import { useIntl } from 'react-intl'; 
 
 const JobsList = () => {
+  const intl = useIntl()
   const [offers] = useState([
     {
       id: "0001",
@@ -36,7 +38,7 @@ const JobsList = () => {
   return (
     <div>
       <table className="table">
-        <thead className="thead-dark">
+        <thead className={intl.formatMessage({id: "table-color"})}>
           <tr>
             <th scope="col">#</th>
             <th scope="col">
